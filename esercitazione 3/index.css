@@ -1,0 +1,74 @@
+.hero{
+    width: 100vw; /* larghezza: 100% della larghezza della viewport (100% viewport width)*/
+    min-height: 100vh; /* larghezza: 100% dell'altezza della viewport (100% viewport height)*/
+    background-image: url(img/test.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 110px;
+    position: relative;
+    padding-left: 35px;
+    justify-content: flex-end;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+    margin-right: 35px;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    font-family: Merriweather;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-left: 45px;
+}
+
+
+
+
+
+.intestazione{
+    text-align: center;
+}
+.titolo{
+    color: white;
+    font-size: 60px;
+    border-width: 2px;
+    border-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Merriweather';
+
+}
+
+.paragrafo{
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Merriweather';
+}
+.bottone{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Merriweather';
+    color: 080C71;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 10px;
+    font-size: 30px;
+    
+}
